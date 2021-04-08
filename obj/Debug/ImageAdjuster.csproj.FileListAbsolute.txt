@@ -1,0 +1,10 @@
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\bin\Debug\ImageAdjuster.exe.config
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\bin\Debug\ImageAdjuster.exe
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\bin\Debug\ImageAdjuster.pdb
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.csprojAssemblyReference.cache
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.Properties.Resources.resources
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.csproj.GenerateResource.cache
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.csproj.CoreCompileInputs.cache
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.exe
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.pdb
+D:\C#\ImageAdjuster\ImageAdjuster\ImageAdjuster\obj\Debug\ImageAdjuster.Form1.resources
