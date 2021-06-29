@@ -6,7 +6,7 @@ using System.Drawing.Imaging;
 namespace ImageAdjuster
 {
 	/// <summary>
-	/// Converter class
+	/// Abstract base class for every converter
 	/// </summary>
 	abstract class Converter
 	{
@@ -21,7 +21,7 @@ namespace ImageAdjuster
 		abstract public Image Convert(Font font, Image img, string subset, bool colorConversion);
 	}
 	/// <summary>
-	/// ImageConverter class
+	/// Abstract base class for every image converter
 	/// </summary>
 	abstract class ImageConverter : Converter
 	{
@@ -48,7 +48,7 @@ namespace ImageAdjuster
 	}
 
 	/// <summary>
-	/// ImageToASCIIConverter class
+	/// Class for converting image to ASCII Art
 	/// </summary>
 	class ImageToASCIIConverter : ImageConverter
 	{
@@ -301,7 +301,7 @@ namespace ImageAdjuster
 		protected List<ASCIICharHolder> charHolders { get; set; }
 	}
 	/// <summary>
-	/// ImagePixalizationConverter class
+	/// Class for converting image to pixelization
 	/// </summary>
 	class ImagePixelizationConverter : ImageConverter
 	{

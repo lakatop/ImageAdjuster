@@ -7,7 +7,7 @@ using System.IO;
 namespace ImageAdjuster
 {
 	/// <summary>
-	/// ImageLoader class
+	/// Class for loading images for conversion.
 	/// </summary>
 	class ImageLoader
 	{

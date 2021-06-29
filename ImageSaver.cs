@@ -4,6 +4,9 @@ using System.Drawing.Imaging;
 
 namespace ImageAdjuster
 {
+	/// <summary>
+	/// Class for saving converted images
+	/// </summary>
 	class ImageSaver
 	{
 		/// <summary>

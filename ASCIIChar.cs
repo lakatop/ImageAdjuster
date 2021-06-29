@@ -246,6 +246,9 @@ namespace ImageAdjuster
 		/// <value>Intensity of full bmp area</value>
 		public uint fullIntensity { get; private set; }
 	}
+	/// <summary>
+	/// Abstract class representing container for ASCII characters
+	/// </summary>
 	abstract class ASCIICharHolder
 	{
 		/// <summary>
@@ -376,7 +379,9 @@ namespace ImageAdjuster
 		/// <value>minimal intensity of ascii character from all <see cref="asciiChars"/> in this holder</value>
 		protected uint minIntensity { get; set; }
 	}
-
+	/// <summary>
+	/// Container for subset of ASCII characters with given font and size
+	/// </summary>
 	class FixedASCIICharHolder : ASCIICharHolder
 	{
 		/// <summary>
@@ -419,7 +424,9 @@ namespace ImageAdjuster
 			}
 		}
 	}
-
+	/// <summary>
+	/// Container for every printable ASCII character with given font and size
+	/// </summary>
 	class FullASCIICharHolder : ASCIICharHolder
 	{
 		/// <summary>

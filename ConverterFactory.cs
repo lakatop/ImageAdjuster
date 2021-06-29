@@ -2,6 +2,9 @@
 {
 	/// <value>Types of supported conversions</value>
 	enum Conversion { ASCII, Pixelization}
+	/// <summary>
+	/// Factory class for converters
+	/// </summary>
 	class ConverterFactory
 	{
 		/// <summary>

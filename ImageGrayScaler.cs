@@ -3,6 +3,9 @@ using System.Drawing.Imaging;
 
 namespace ImageAdjuster
 {
+	/// <summary>
+	/// Class for converting colored images to grayscale
+	/// </summary>
 	class ImageGrayScaler
 	{
 		/// <summary>

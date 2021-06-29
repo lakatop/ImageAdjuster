@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace ImageAdjuster
 {
+	/// <summary>
+	/// Defines application components and their functionality
+	/// </summary>
 	public partial class Form1 : Form
 	{
 		public Form1()
